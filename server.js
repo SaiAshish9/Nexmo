@@ -9,7 +9,7 @@ app.use(express.static('public'))
 const socketio=require('socket.io')
 
 const nexmo=new Nexmo({
-  apiKey:'0516ffa4',
+  apiKey:'',
   apiSecret:'vy69TEPK5cFrYLPF'
 },{debug:true})
 
